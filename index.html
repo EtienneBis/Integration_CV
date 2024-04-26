@@ -22,18 +22,17 @@
             transform: translate(0) scale(1) !important;
         }
 
-        .avatar { /* Correction du nom de classe */
-          overflow: hidden;
+        .hover-effect img {
           border-radius: 50%; /* Bordure arrondie initiale */
         }
-    
-        .avatar:hover img {
+        
+        .hover-effect:hover img {
           border-radius: 50%; /* Bordure arrondie lorsqu'on survole l'image */
         }
-    
-        .avatar img {
+        
+        .hover-effect img {
           transition: border-radius 0.3s ease; /* Transition pour l'effet fluide */
-          width: 200px; /* Largeur de l'image */
+          width: 100%; /* Largeur de l'image */
           height: auto; /* Hauteur automatique */
         }
 
