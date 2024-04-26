@@ -21,30 +21,25 @@
             opacity: 1 !important;
             transform: translate(0) scale(1) !important;
         }
-        
-      </style>
 
-
-      <style>
-        .avatar {
+        .avatar-container {
           overflow: hidden;
-          border-radius: 50%;
-          transition: border-radius 0.3s ease;
+          border-radius: 50%; /* Bordure arrondie initiale */
         }
     
-        .avatar img {
-          width: 100%;
-          height: auto;
+        .avatar-container:hover img {
+          border-radius: 50%; /* Bordure arrondie lorsqu'on survole l'image */
         }
     
-        .avatar:hover {
-          border-radius: 10%;
+        .avatar-container img {
+          transition: border-radius 0.3s ease; /* Transition pour l'effet fluide */
+          width: 200px; /* Largeur de l'image */
+          height: auto; /* Hauteur automatique */
         }
+
       </style>
 
 
-
-      
     </noscript>
   </head>
   <body id="top">
